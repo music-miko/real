@@ -18,7 +18,7 @@ EXCLUDED_CHAT_IDS: Set[int] = {
     config.LOGGER_ID, -1001476736723, -1001726765522,  # Fallback if not set
 }
 
-MAX_LEAVES_PER_RUN = 50
+MAX_LEAVES_PER_RUN = 80
 TIMEZONE = pytz.timezone("Asia/Kolkata")
 TARGET_HOUR = 4
 TARGET_MINUTE = 35
