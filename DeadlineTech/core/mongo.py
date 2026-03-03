@@ -15,7 +15,7 @@ from ..logging import LOGGER
 LOGGER(__name__).info("Connecting to database :)")
 try:
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URI)
-    mongodb = _mongo_async_.deadline
+    mongodb = _mongo_async_.Yukki
     LOGGER(__name__).info("MongoDB Started Successfully :)")
 except:
     LOGGER(__name__).error("MongoDB connection failed!")
