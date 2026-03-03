@@ -19,6 +19,7 @@ API_KEY = getenv("API_KEY")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+DB_NAME = getenv("DB_NAME")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
 
